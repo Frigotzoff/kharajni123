@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>History</title>
+	<link rel="icon" href="res/logo.jpg" type="image/png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script  src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+
+</head>
+<body>
+		<nav id="bootnav" class="navbar navbar-inverse">
+		  <div class="container-fluid">
+	   	 	 <div class="navbar-header">
+	     		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	      		  <span class="icon-bar"></span>
+	       		  <span class="icon-bar"></span>
+	              <span class="icon-bar"></span> 
+	             </button>
+	             <a class="navbar-brand" href="home.html">Attack On Titan</a>
+	      	 </div>
+	   		 <div class="collapse navbar-collapse" id="myNavbar">
+	    	 	 <ul class="nav navbar-nav">
+	      	  		 <li><a href="history.html">History</a></li>
+	      	 		 <li><a href="actors.html">Actors</a></li> 
+	       			 <li><a href="Anime.html">Anime</a></li> 
+	       			 <li><a href="Manga.html">Manga</a></li> 
+	       			 <li><a href="Game.html">Game</a></li> 
+	       			 <li><a href="Music.html">Music and Oppenings</a></li>
+	     	     </ul>
+	     	 	<ul class="nav navbar-nav navbar-right">
+					<!-- Authentication dropdown -->
+
+
+					<li class="dropdown">
+						<a href="#" id="dropbtn" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+
+							<i class="fa fa-user"></i>
+							 &nbsp <span id = "result"></span>
+							<span class="caret"></span>
+						</a>
+
+						<ul class="dropdown-menu">
+
+							<li>
+								<a id="outBtn" class="btn btn-secondary" >Log Out</a>
+							</li> 
+						</ul>
+					</li>
+				</ul>
+	  	     </div>
+	   	 </div>
+		        </nav>
+
+			
+		</div>
+	</div>
+	<div class="container" >
+		<h2>History</h2>
+		<p>The first story arc of the Attack on Titan series. The story begins as we venture into the Walls of humanity and meet our main protagonists, Eren, Mikasa and Armin. However, a mysterious threat known as the Titans cause a daily threat and our heroes soon learn of their terror as the Colossus Titan breaks through the gate.The second story arc of the Attack on Titan series. Shortly after their graduation, the members of the 104th Training Corps are thrown into a fight against the Titans as the Colossus Titans appears at Trost District and breaks through the Wall. During the battle, Eren learns of the mysterious power deep inside him.The third story arc of the Attack on Titan series. After witnessing the horror of Titans, Eren, Mikasa and Armin decide to undergo a military training and enroll into the army as members of the 104th Training Corps. There, they get to know the rest of the trainees and slowly begin understanding the hardships of a soldier.The fourth story arc of the Attack on Titan series. After the battle, Eren is assigned to the Levi Squad as a member of the Survey Corps. Along with some of his friends, he gets ready for an upcoming expedition. However, beyond the Walls, there is an unpredictable danger awaiting our heroes.The fifth story arc of the Attack on Titan series. Suddenly, a group of Titans appears inside the Wall, signalizing a possible breach of Wall Rose. The members of the 104th Training Corps find themselves in a bloody fight against those mysterious Titans, however, unbeknownst to them, there is a danger lurking within the group, one that Eren and others will have to face in a decisive battle.The sixth story arc of the Attack on Titan series. The situation inside the Walls becomes critical after the murder of Minister Nick and a subsequent attempt to kidnap Eren and Historia. Knowing that the king's actions greatly endanger humanity, Erwin begins his plan - the plan to overthrow the government!.The seventh story arc of the Attack on Titan series. There is peace again within the Walls, and the Survey Corps prepare for a new expedition to Shiganshina. Thanks to Hange's new weapon, the hopes to retake the lost territory once and for all are stronger than ever. But at their old home, known and powerful enemies are awaiting and a fierce battle is coming.Across the sea, the nation of Marley finishes its fight with the Mid-East Allied Forces using the power of the Titans. However, it becomes all too clear to the Marley military that the power of the Titans is losing its place in the modern age. In order to maintain its hold on the world, the power of the Founding Titan is needed now more than ever. Unfortunately for the Warriors, the Founder still rests in the hands of Eren Yeager and the last remnants of Eldia, the devils of Paradis whom Reiner Braun will soon have to confront once more.</p>
+			<div align="center" >
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Murs_L%27Attaque_des_Titans.png/220px-Murs_L%27Attaque_des_Titans.png">
+			</div>
+
+</body>
+</html>
+<style type="text/css">
+
+#bootnav {
+	background: url('http://assets1.ignimgs.com/2017/03/03/aot-1488568444893_1280w.jpg')
+}
+	.navbar-brand{
+		color: white !important;
+	font-family: 'Attack on Courier';
+}
+
+@font-face {
+	font-family: 'prviking';
+	src: url('pr_viking/PR Viking.ttf');
+}
+	body{
+		background-image: url('res/backg.jpg');
+		  font-weight: 600;
+	}
+	img{
+      height: 400px;
+      width: 400px;
+	}
+	
+    p {
+    	background-color: white ;
+    	color: #8B0606 ;
+    }
+	h2{
+		text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+	color: #881313;
+	
+		font-weight: bold; 
+		font-family: 'prviking';
+		font-size: 100px; 
+			}
+	
+.hoverWrapper:hover #hoverShow1{
+	display: block !important;
+}
+#hoverShow1 {
+ display: none;
+ width: 100%;
+ height: 30px;
+ left: 200px;
+ top: 100px;
+}
+
+</style>
+<script type="text/javascript">
+	$('#dropbtn').on('mouseenter', function () {
+    $('#dropbtn').click()
+})
+
+$('.dropdown ul').on('mouseleave', function() {
+    $('#dropbtn').click()
+})
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+ var config = {
+    apiKey: "AIzaSyBnUzQDWWwb0gPO8ynZpf2OWhRxgI8Jfl0",
+    authDomain: "projet-b638a.firebaseapp.com",
+    databaseURL: "https://projet-b638a.firebaseio.com",
+    projectId: "projet-b638a",
+    storageBucket: "",
+    messagingSenderId: "683334956816"
+  };
+firebase.initializeApp(config);
+var auth = firebase.auth();
+
+var logOut = document.getElementById('outBtn');
+
+// Store
+//localStorage.setItem("lastname", "Smith");
+// Retrieve
+document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+
+logOut.addEventListener('click', e => {
+    window.location.href = "frist.html";
+    auth.signOut();
+    alert.style.display = "none";
+})
+
+auth.onAuthStateChanged(firebaseUser => {
+    if (firebaseUser) { logOut.classList.remove('hide'); }
+    else { logOut.classList.add('hide') }
+})
+</script>

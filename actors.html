@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Workers</title>
+	<title>A.O.T</title>
+	<link rel="icon" href="res/Kh.png" type="image/png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script  src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+</head>
+<body>
+	<nav id="bootnav" class="navbar navbar-inverse">
+		  <div class="container-fluid">
+	   	 	 <div class="navbar-header">
+	     		 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	      		  <span class="icon-bar"></span>
+	       		  <span class="icon-bar"></span>
+	              <span class="icon-bar"></span> 
+	             </button>
+	             <a class="navbar-brand" href="home.html">KHARAJNI</a>
+	      	 </div>
+	   		 <div class="collapse navbar-collapse" id="myNavbar">
+	    	 	 <ul class="nav navbar-nav">
+	      	  		 <li><a href="actors.html" style="color: #2399F0" >Workers</a></li> 
+	       			
+	       			
+	       			 <li><a href="Music.html" style="color: #2399F0">Find a job</a></li>
+	     	     </ul>
+	     	 	<ul class="nav navbar-nav navbar-right">
+					<!-- Authentication dropdown -->
+
+
+					<li class="dropdown">
+						<a href="#" id="dropbtn" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: #2399F0">
+
+							<i class="fa fa-user"></i>
+							 &nbsp <span id = "result"></span>
+							<span class="caret"></span>
+						</a>
+
+						<ul class="dropdown-menu">
+
+							<li>
+								<a id="outBtn" class="btn btn-secondary" >Log Out</a>
+							</li> 
+						</ul>
+					</li>
+				</ul>
+	  	     </div>
+	   	 </div>
+		        </nav>
+	
+	<div class="container" id="container">
+			<center><h1 id="loula" style="color: #542C79">WORKERS</h1></center><br><br>
+			   
+					<div class="textOverImage">
+						   	<img class="image1" src="res/Eren.jpg"  style="width: 30%">
+			<div class="image-caption1">   
+			<h2>Monji Hamrouni</h2>
+			 <p class="para" >
+								<br>
+							Adress : 35, avenue de la republique<br>
+							City : Megrine<br>
+							Postal code: 2033<br>
+							Home telephone: 70123654<br>
+							Cell phone: 92507070<br>
+							Birth date: 24/11/1993<br>
+							Gender: male<br>
+							Last Job: 2009<br>
+							Years of work : 3
+							
+							 </p>
+							 </div>
+							 </div>
+							 <br>
+							
+						
+			   
+						  <div class="textOverImage floatright">
+							<img class="image2"  src="res/Erwin.jpg" style="width: 30%">
+							<div class="image-caption2"><h2>Mahdi Bardoun</h2>
+							<p class="para"> 
+								<br>
+							Adress : 35, avenue de la republique<br>
+							City : Megrine<br>
+							Postal code: 2033<br>
+							Home telephone: 70123654<br>
+							Cell phone: 92507070<br>
+							Birth date: 24/11/1993<br>
+							Gender: male<br>
+							Last Job: 2009<br>
+							Years of work : 3</p>
+								</div>
+								 
+						  </div>
+						  <br>
+						  
+			   
+						  <div class="textOverImage">
+							<img class="image3"  src="res/Hange Zoë.jpg" >
+							<div class="image-caption3"><h2>Lamia Elhedi</h2><p class="para">
+								<br>
+							Adress : 35, avenue de la republique<br>
+							City : Megrine<br>
+							Postal code: 2033<br>
+							Home telephone: 70123654<br>
+							Cell phone: 92507070<br>
+							Birth date: 24/11/1993<br>
+							Gender: male<br>
+							Last Job: 2009<br>
+							Years of work : 3</p>
+								 </div>
+								 <br>
+						  </div>
+						  <div class="textOverImage floatright">
+								<img class="image4"  src="res/Mikassa.jpg">
+								<div class="image-caption4"><h2>Sihem Lakhdher</h2><p class="para"> 
+								<br>
+							Adress : 35, avenue de la republique<br>
+							City : Megrine<br>
+							Postal code: 2033<br>
+							Home telephone: 70123654<br>
+							Cell phone: 92507070<br>
+							Birth date: 24/11/1993<br>
+							Gender: male<br>
+							Last Job: 2009<br>
+							Years of work : 3</p>
+							  </div>
+							  </div>
+							  <br>
+							  <div class="textOverImage">
+									<img class="image5"  src="res/Levi.jpg"  style="width: 30%">
+									<div class="image-caption5"><h2>Fares Mokni</h2><p class="para"> 
+								<br>
+							Adress : 35, avenue de la republique<br>
+							City : Megrine<br>
+							Postal code: 2033<br>
+							Home telephone: 70123654<br>
+							Cell phone: 92507070<br>
+							Birth date: 24/11/1993<br>
+							Gender: male<br>
+							Last Job: 2009<br>
+							Years of work : 3</p>
+										</div>
+										 </div>
+										 <br>
+								  <div class="textOverImage floatright">
+									<img class="image6"  src="res/Armin.jpg" style="width: 30%">
+									<div class="image-caption6"><h2> Moncef Gadour</h2><p class="para">
+								<br>
+							Adress : 35, avenue de la republique<br>
+							City : Megrine<br>
+							Postal code: 2033<br>
+							Home telephone: 70123654<br>
+							Cell phone: 92507070<br>
+							Birth date: 24/11/1993<br>
+							Gender: male<br>
+							Last Job: 2009<br>
+							Years of work : 3</p>
+										 </div>
+										 
+								  </div>
+								  
+	
+	         </div>
+	</body>
+	
+	</html>
+	<style type="text/css">
+
+	@font-face{
+ font-family: 'splatch' ;
+ src: url('splatch.ttf');
+}
+
+#bootnav {
+	background: url('https://wetlandsinstitute.org/wp-content/uploads/2016/04/808483-free-blue-background.jpg')
+}
+
+
+
+.navbar-brand{
+		color: #2399F0 !important;
+	font-family: 'splatch';
+}
+
+
+		body{
+   background-image: url('res/backg.jpg');
+
+  font-weight: 600;
+}
+textOverImage{
+   float: left;;
+    width: 30%;
+    padding: 5px;
+	position: relative;
+	margin: 5px;
+	color: #333;
+
+    
+}
+
+.floatright
+{
+    float:right;
+}
+
+
+
+    .image-caption1 , .image-caption3, .image-caption5 {
+        display: none;
+	opacity: 0.8;
+	background:#cae5c1;
+	width: 290px;
+	position: absolute;
+	bottom: 0px;
+    padding: 5px;
+    float: left;
+    left: 250px;
+    width: 800px;
+    height: 344px
+    }
+    .image-caption2 , .image-caption4, .image-caption6{
+    display: none;
+	opacity: 0.8;
+	background:#cae5c1;
+	width: 290px;
+	position: absolute;
+	bottom: 0px;
+    padding: 5px;
+    float: right;
+    right: 250px;
+    width: 800px;
+    height: 344
+   }
+        
+.textOverImage{
+    transition:0.5s;
+    
+}
+
+    .textOverImage:hover{
+        transition: 0.9s;
+        transform:scale(0.9)
+
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .para{
+      position: relative;
+      left: 10px;
+      font-family:'cursive';
+      font-size: 25px
+  }
+  #container{
+      margin: 70px;
+      background-color: #D1FAFF;
+      height:1600px
+      
+  }
+  #loula{
+      font-family: 'splatch';
+      font-size:40px ;
+      color: #542C79
+  }
+  h2{
+      font-family: 'Cloister Black Light'
+  }
+	</style>
+	<script type="text/javascript">
+		$(".image-caption").slideDown();
+
+var lengthOfDiv = $(".textOverImage").length
+
+// alert(lengthOfDiv)
+for (let index =0; index <= lengthOfDiv ; index++) {
+    $(".image"+index).mouseenter(function(){
+        $(".image-caption"+index).css("display" , "block")
+    })
+    $(".image"+index).mouseleave(function(){
+        $(".image-caption"+index).css("display" , "none")
+    })
+    
+}
+$('#dropbtn').on('mouseenter', function () {
+    $('#dropbtn').click()
+})
+
+$('.dropdown ul').on('mouseleave', function(e) {
+	
+		$('#dropbtn').click()
+})
+
+
+ var config = {
+    apiKey: "AIzaSyBnUzQDWWwb0gPO8ynZpf2OWhRxgI8Jfl0",
+    authDomain: "projet-b638a.firebaseapp.com",
+    databaseURL: "https://projet-b638a.firebaseio.com",
+    projectId: "projet-b638a",
+    storageBucket: "",
+    messagingSenderId: "683334956816"
+  };
+firebase.initializeApp(config);
+var auth = firebase.auth();
+
+var logOut = document.getElementById('outBtn');
+
+// Store
+//localStorage.setItem("lastname", "Smith");
+// Retrieve
+document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+
+logOut.addEventListener('click', e => {
+    window.location.href = "frist.html";
+    auth.signOut();
+    alert.style.display = "none";
+})
+
+auth.onAuthStateChanged(firebaseUser => {
+    if (firebaseUser) { logOut.classList.remove('hide'); }
+    else { logOut.classList.add('hide') }
+})
+	</script>
